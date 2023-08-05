@@ -1,7 +1,7 @@
 import { SiCplusplus } from "react-icons/si";
 export function TargetCpp() {
   return (
-    <div>
+    <div className="font-Montserrat">
       <div className="text-white bg-black rounded-lg p-5 m-5 float-none justify-center text-center border-solid border-2 border-sky-500 shadow-lg shadow-cyan-500/50">
         <div className="float-none mx-32 m-5">
           <SiCplusplus size={100} />

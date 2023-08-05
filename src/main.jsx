@@ -6,6 +6,7 @@ import { TargetName } from "./TargetName";
 import { TargetGit } from "./TargetGit";
 import { TargetCpp } from "./TargetCpp";
 import { TargetPython } from "./TargetPython";
+import { PageEnd } from "./PageEnd";
 //End
 import "./index.css";
 
@@ -18,5 +19,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <TargetPython />
       <TargetCpp />
     </div>
+    <PageEnd/>
   </div>
 );
